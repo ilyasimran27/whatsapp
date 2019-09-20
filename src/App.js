@@ -98,7 +98,7 @@ let number=2;
         data.map(function (item) 
         {
         return( <>
-        {isUnread=item.isUnread}
+       
         <Message
       
            name={item.name} 

@@ -2,14 +2,12 @@ import React from 'react';
 import './Message.css';
 import PropTypes from 'prop-types';
 
-document.querySelector("li");
+const ss=document.querySelector("li")
 
 function Message(props) {
-    if (props.isUnread==true){
-        return 
-    }
+    
     return (
-        <li>
+        <li style ={{backgroundColor: props.isUnread ? '#e9967a' : '#c3f8e6',}}>
             <div className="im">
            <img src={props.imgURL} alt={props.name} />
            </div>
