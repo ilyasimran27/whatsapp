@@ -1,0 +1,23 @@
+li{
+    display:flex;
+ justify-content: right;
+  list-style:none;
+ width:100%;
+    border-bottom:2px solid black;
+   position:relative;
+   background-color: #c3f8e6;
+}
+li img{
+    width: 60px;
+    height:60px;
+    border-radius: 100%;
+    margin: 10px;
+}
+
+.body{
+    margin:0;
+}
+
+
+
+
