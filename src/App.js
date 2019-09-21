@@ -84,9 +84,8 @@ const data = [
   "time": "5:30 AM MOnday"
   }
 ]
-let isUnread;
 function App() {
-let number=2;
+
 
   return (
     
@@ -107,6 +106,7 @@ let number=2;
           message={item.firstLine} 
         time={item.time}
         isUnread={item.isUnread}
+        numbUnread={item.numbUnread}
        /></>)})
       }
     </ul>
